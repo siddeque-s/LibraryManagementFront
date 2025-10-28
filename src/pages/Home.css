@@ -22,6 +22,7 @@ body {
 
 .tableeee {
   width: 90%;
+  border-collapse: collapse;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
@@ -65,12 +66,8 @@ button {
   background: none;
   border: none;
   margin: 0 5px;
-  transition: transform 0.2s ease;
 }
 
-button:hover {
-  transform: scale(1.1);
-}
 
 
 .deleteBtn {
@@ -101,14 +98,6 @@ button:hover {
   background: rgba(26, 26, 26, 0.6);
 }
 
-
-.c {
-  background: #ffffff;
-  width: 420px;
-  border-radius: 12px;
-  padding: 25px 30px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
 
 
 .headingModalEdit {
